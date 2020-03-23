@@ -15,7 +15,8 @@ This project is an example of unit and integration testing using selenium, testn
 
 **RUN**
 
-1. From Application Main Class
+There are different ways of running the test cases:
+1. From Test Class
 2. From TestNG xml files 
 3. From Maven pom.xml file
 4. From Jenkins, which will be available on http://localhost:8080
