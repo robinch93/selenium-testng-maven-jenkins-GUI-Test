@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="UnitTestSuite">
+	<test thread-count="5" name="UnitTest">
+		<classes>
+			<class name="com.test.Search_Page_Unit_Test" />
+		</classes>
+	</test> <!-- UnitTest -->
+</suite> <!-- UnitTestSuite -->

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="IntegrationTestSuite" duration-ms="36477" started-at="2020-03-23T02:10:26 CET" finished-at="2020-03-23T02:11:03 CET">
+    <groups>
+    </groups>
+    <test name="IntegrationTest" duration-ms="36477" started-at="2020-03-23T02:10:26 CET" finished-at="2020-03-23T02:11:03 CET">
+      <class name="com.test.Search_Page_Integration_Test">
+        <test-method status="PASS" signature="driverSetup()[pri:0, instance:com.test.Search_Page_Integration_Test@57855c9a]" name="driverSetup" is-config="true" duration-ms="7953" started-at="2020-03-23T02:10:26 CET" finished-at="2020-03-23T02:10:34 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetup -->
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:com.test.Search_Page_Integration_Test@57855c9a]" name="openApplication" is-config="true" duration-ms="327" started-at="2020-03-23T02:10:34 CET" finished-at="2020-03-23T02:10:35 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="searchTicket()[pri:1, instance:com.test.Search_Page_Integration_Test@57855c9a]" name="searchTicket" duration-ms="17374" started-at="2020-03-23T02:10:35 CET" description="Integration Test to Search a Ticket" finished-at="2020-03-23T02:10:52 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTicket -->
+        <test-method status="PASS" signature="bookTicket()[pri:2, instance:com.test.Search_Page_Integration_Test@57855c9a]" name="bookTicket" duration-ms="9794" started-at="2020-03-23T02:10:52 CET" description="Integration Test to Book a Ticket" finished-at="2020-03-23T02:11:02 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookTicket -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.Search_Page_Integration_Test@57855c9a]" name="tearDown" is-config="true" duration-ms="937" started-at="2020-03-23T02:11:02 CET" finished-at="2020-03-23T02:11:03 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.Search_Page_Integration_Test -->
+    </test> <!-- IntegrationTest -->
+  </suite> <!-- IntegrationTestSuite -->
+</testng-results>
