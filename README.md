@@ -10,8 +10,8 @@ This project is an example of unit and integration testing using selenium, testn
 
 **BUILD**
 
-mvn clean 
-mvn install
+* mvn clean 
+* mvn install
 
 **RUN**
 
@@ -22,27 +22,27 @@ mvn install
 
 Application is tested using Page Object Model approaches using java:
 
-Unit
+- Unit Test
 
 [src/test/java/com/test/Search_Page_Unit_Test.java](https://github.com/robinch93/selenium-testng-maven-jenkins/blob/master/com.learn.maven/src/test/java/com/test/Search_Page_Unit_Test.java)
 
-Integration test
+- Integration test
 
 [src/test/java/com/test/Ticket_Booking_Integration_Test.java](https://github.com/robinch93/selenium-testng-maven-jenkins/blob/master/com.learn.maven/src/test/java/com/test/Ticket_Booking_Integration_Test.java)
 
-Application Pages
+- Application Pages
 
 [src/test/java/com/flixbus/pages/Flixbus_search_page.java](https://github.com/robinch93/selenium-testng-maven-jenkins/blob/master/com.learn.maven/src/test/java/com/flixbus/pages/Flixbus_search_page.java)
 
 [src/test/java/com/flixbus/pages/Flixbus_booking_page.java](https://github.com/robinch93/selenium-testng-maven-jenkins/blob/master/com.learn.maven/src/test/java/com/flixbus/pages/Flixbus_booking_page.java)
 
-TestNG Suite xml
+- TestNG Suite xml
 
 [src/test/resources/Suite/IntegrationTest.xml](https://github.com/robinch93/selenium-testng-maven-jenkins/blob/master/com.learn.maven/src/test/resources/Suite/IntegrationTest.xml)
 
 [src/test/resources/Suite/UnitTest.xml](https://github.com/robinch93/selenium-testng-maven-jenkins/blob/master/com.learn.maven/src/test/resources/Suite/UnitTest.xml)
 
-Maven POM.xml
+- Maven POM.xml
 
 [com.learn.maven/pom.xml](https://github.com/robinch93/selenium-testng-maven-jenkins/blob/master/com.learn.maven/pom.xml)
 
