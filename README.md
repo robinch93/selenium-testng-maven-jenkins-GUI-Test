@@ -1,5 +1,5 @@
 # selenium-testng-maven-jenkins
-This project is an example of unit and integration testing by creating framework using selenium, testng, maven and jenkins in java language. It is an example of Page Object Model implementation on Flixbus web application. Webdriver Manager dependency was used to manage the browser drivers. 
+This project is an example of unit and integration testing by creating framework using selenium, testng, maven and jenkins in java language. It is an example of Page Object Model implementation on Flixbus web application. Webdriver Manager dependency was used to manage the browsers driver. 
 
 **Prerequisite**
 
